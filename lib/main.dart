@@ -1,20 +1,17 @@
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:thired_eyes/Constants/Colors.dart';
 import 'package:thired_eyes/Screens/Dashborad.dart';
 import 'package:thired_eyes/Screens/SplashScreen.dart';
 
-void main() {
-  WidgetsFlutterBinding.ensureInitialized();
+void main() async {
 
   runApp(MyApp());
 }
 
 class MyApp extends StatelessWidget {
-  //  Color _primaryColor = HexColor('#41fc03');
-  //  Color _accentColor = HexColor('#03fc90');
 
-  // Color _primaryColor_dark = HexColor('#333333');
 
   @override
   Widget build(BuildContext context) {
